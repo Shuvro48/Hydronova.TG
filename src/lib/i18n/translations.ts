@@ -160,12 +160,11 @@ export const translations = {
     accuracy: { en: "Accuracy", bn: "নির্ভুলতা" },
     citizens: { en: "Citizens Protected", bn: "সুরক্ষিত নাগরিক" },
   },
-
   impact: {
-    peopleHelped: { en: "People Helped", bn: "সাহায্যপ্রাপ্ত মানুষ" },
-    avgWarning: { en: "Avg Warning Time", bn: "গড় সতর্কতা সময়" },
-    accuracy: { en: "Prediction Accuracy", bn: "পূর্বাভাস নির্ভুলতা" },
-    damagePrevented: { en: "Damage Prevented", bn: "ক্ষতি প্রতিরোধ" },
+    peopleHelped: { en: "Flood Risk Indicators", bn: "বন্যা ঝুঁকি নির্দেশক" },
+    avgWarning: { en: "Advance Alerts", bn: "অগ্রিম সতর্কতা" },
+    accuracy: { en: "Integrated Modules", bn: "সমন্বিত মডিউল" },
+    damagePrevented: { en: "Open Access Platform", bn: "উন্মুক্ত প্ল্যাটফর্ম" },
   },
 
   footer: {

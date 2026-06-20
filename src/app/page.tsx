@@ -275,10 +275,10 @@ export default function HomePage() {
             </h2>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: 24, maxWidth: 600, margin: "0 auto" }}>
               {[
-                { value: "4.2M", label: t("impact.peopleHelped", language) },
-                { value: "18hr", label: t("impact.avgWarning", language) },
-                { value: "93%", label: t("impact.accuracy", language) },
-                { value: "৳2.8B", label: t("impact.damagePrevented", language) },
+                { value: "15+", label: t("impact.peopleHelped", language) },
+                { value: "16hr", label: t("impact.avgWarning", language) },
+                { value: "3", label: t("impact.accuracy", language) },
+                { value: "100%", label: t("impact.damagePrevented", language) },
               ].map((s) => (
                 <div key={s.label}>
                   <div style={{ fontSize: "2rem", fontWeight: 800, color: "#38bdf8" }}>{s.value}</div>
