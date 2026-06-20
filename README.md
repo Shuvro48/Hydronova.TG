@@ -2,7 +2,7 @@
 
 > Not a warning app. A full flood intelligence ecosystem.
 
-**Founder:** Abuhena Shuvro
+**Founder:** Abuhena Shuvro, Kazi Mahir Adeeb, Abid Raihan
 
 ---
 
@@ -13,8 +13,6 @@ npm install
 cp .env.example .env.local   # fill in Supabase keys (see DEPLOY.md)
 npm run dev                   # → http://localhost:3000
 ```
-
-The app works immediately without any environment variables — Supabase auth gracefully falls back, and FloodGPT uses smart built-in responses. Add keys later for full auth + live AI.
 
 ---
 
@@ -32,17 +30,6 @@ The app works immediately without any environment variables — Supabase auth gr
 | Emergency | `/emergency` | One-tap SOS, contacts, shelters, checklist |
 
 ---
-
-## 🛠️ Tech Stack — 100% Free Tier
-
-- **Next.js 14** (App Router) + TypeScript
-- **Tailwind CSS** for styling
-- **Framer Motion** for animation
-- **Zustand** for state (persisted language + mode)
-- **Supabase** — free-tier auth + Postgres database
-- **Leaflet** (via CDN, not npm) + **OpenStreetMap** tiles — free maps
-- **Open-Meteo API** — free weather data, no API key required
-- **Recharts** for dashboard charts
 
 No paid APIs. No vendor lock-in beyond Supabase's generous free tier.
 
@@ -76,12 +63,3 @@ hydronova/
 
 ---
 
-## 📖 Full Deployment Guide
-
-See **DEPLOY.md** for complete step-by-step instructions covering Supabase setup, GitHub, and Vercel deployment.
-
----
-
-## 📄 License
-
-MIT License.
